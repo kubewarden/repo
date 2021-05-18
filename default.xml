@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="upstream"
+           fetch="ssh://git@github.com" />
+  <default revision="main"
+           remote="upstream"
+           sync-j="4" />
+
+  <project path="docs" name="kubewarden/docs" groups="docs" />
+  <project path="gjson" name="kubewarden/gjson" revision="master" groups="deps" />
+  <project path="go-policy-template" name="kubewarden/go-policy-template" groups="templates" />
+  <project path="helm-charts" name="kubewarden/helm-charts" groups="kubernetes" />
+  <project path="ingress-policy" name="kubewarden/ingress-policy" groups="policies" />
+  <project path="kubewarden-controller" name="kubewarden/kubewarden-controller" groups="kubernetes" />
+  <project path="kubewarden.io" name="kubewarden/kubewarden.io" groups="docs" />
+  <project path="kwctl" name="kubewarden/kwctl" groups="core" />
+  <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
+  <project path="pod-privileged-policy" name="kubewarden/pod-privileged-policy" groups="policies" />
+  <project path="pod-runtime-class-policy" name="kubewarden/pod-runtime-class-policy" groups="policies" />
+  <project path="policy-evaluator" name="kubewarden/policy-evaluator" groups="core" />
+  <project path="policy-fetcher" name="kubewarden/policy-fetcher" groups="core" />
+  <project path="policy-hub" name="kubewarden/policy-hub" groups="hub" />
+  <project path="policy-rust-template" name="kubewarden/policy-rust-template" groups="templates" />
+  <project path="policy-sdk-go" name="kubewarden/policy-sdk-go" groups="sdk" />
+  <project path="policy-sdk-rust" name="kubewarden/policy-sdk-rust" groups="sdk" />
+  <project path="policy-sdk-swift" name="kubewarden/policy-sdk-swift" groups="sdk" />
+  <project path="policy-server" name="kubewarden/policy-server" groups="core" />
+  <project path="psp-allow-privilege-escalation" name="kubewarden/psp-allow-privilege-escalation" groups="policies" />
+  <project path="psp-apparmor" name="kubewarden/psp-apparmor" groups="policies" />
+  <project path="psp-capabilities" name="kubewarden/psp-capabilities" groups="policies" />
+  <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
+  <project path="trusted-repos-policy" name="kubewarden/trusted-repos-policy" groups="policies" />
+</manifest>
