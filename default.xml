@@ -3,6 +3,7 @@
   <remote  name="upstream"
            fetch="ssh://git@github.com" />
   <default dest-branch="main"
+           revision="main"
            remote="upstream"
            sync-j="4" />
 
