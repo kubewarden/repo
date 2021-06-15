@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="upstream"
            fetch="ssh://git@github.com" />
-  <default revision="main"
+  <default branch="main"
            remote="upstream"
            sync-j="4" />
 
@@ -28,6 +28,7 @@
   <project path="psp-allow-privilege-escalation" name="kubewarden/psp-allow-privilege-escalation" groups="policies" />
   <project path="psp-apparmor" name="kubewarden/psp-apparmor" groups="policies" />
   <project path="psp-capabilities" name="kubewarden/psp-capabilities" groups="policies" />
+  <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
   <project path="repo" name="ereslibre/kubewarden" groups="repo" />
   <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
   <project path="trusted-repos-policy" name="kubewarden/trusted-repos-policy" groups="policies" />
