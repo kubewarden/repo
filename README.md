@@ -14,7 +14,7 @@ Run:
 ```shell
 $ mkdir kubewarden
 $ cd kubewarden
-$ repo init git@github.com:ereslibre/kubewarden.git
+$ repo init git@github.com:kubewarden/repo.git
 $ repo sync
 ```
 
