@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="upstream"
            fetch="ssh://git@github.com" />
-  <default branch="main"
+  <default dest-branch="main"
            remote="upstream"
            sync-j="4" />
 
