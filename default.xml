@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
+  <remote  name="upstream"
            fetch="ssh://git@github.com" />
   <default revision="refs/heads/main"
-           remote="origin"
+           remote="upstream"
            sync-j="4" />
 
   <project path="docs" name="kubewarden/docs" groups="docs" />
