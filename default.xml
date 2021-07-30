@@ -28,6 +28,7 @@
   <project path="psp-allow-privilege-escalation" name="kubewarden/psp-allow-privilege-escalation" groups="policies" />
   <project path="psp-apparmor" name="kubewarden/psp-apparmor" groups="policies" />
   <project path="psp-capabilities" name="kubewarden/psp-capabilities" groups="policies" />
+  <project path="psp-sysctl-policy" name="kubewarden/psp-sysctl-policy" groups="policies" />
   <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
   <project path="repo" name="kubewarden/repo" groups="repo" />
   <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
