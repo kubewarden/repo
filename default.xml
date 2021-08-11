@@ -30,6 +30,7 @@
   <project path="psp-capabilities" name="kubewarden/psp-capabilities" groups="policies" />
   <project path="psp-sysctl-policy" name="kubewarden/psp-sysctl-policy" groups="policies" />
   <project path="psp-hostpaths-policy" name="kubewarden/psp-hostpaths-policy" groups="policies" />
+  <project path="psp-volumes-policy" name="kubewarden/psp-volumes-policy" groups="policies" />
   <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
   <project path="repo" name="kubewarden/repo" groups="repo" />
   <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
