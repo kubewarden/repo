@@ -34,5 +34,6 @@
   <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
   <project path="repo" name="kubewarden/repo" groups="repo" />
   <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
+  <project path="swift-policy-template" name="kubewarden/swift-policy-template" groups="templates" />
   <project path="trusted-repos-policy" name="kubewarden/trusted-repos-policy" groups="policies" />
 </manifest>
