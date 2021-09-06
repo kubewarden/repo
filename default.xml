@@ -33,6 +33,7 @@
   <project path="psp-volumes-policy" name="kubewarden/psp-volumes-policy" groups="policies" />
   <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
   <project path="repo" name="kubewarden/repo" groups="repo" />
+  <project path="safe-annotations-policy" name="kubewarden/safe-annotations-policy" groups="policies" />
   <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
   <project path="swift-policy-template" name="kubewarden/swift-policy-template" groups="templates" />
   <project path="trusted-repos-policy" name="kubewarden/trusted-repos-policy" groups="policies" />
