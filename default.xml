@@ -17,6 +17,7 @@
   <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
   <project path="pod-privileged-policy" name="kubewarden/pod-privileged-policy" groups="policies" />
   <project path="pod-runtime-class-policy" name="kubewarden/pod-runtime-class-policy" groups="policies" />
+  <project path="policy-disallow-service-nodeport" name="kubewarden/policy-disallow-service-nodeport" groups="policies" />
   <project path="policy-evaluator" name="kubewarden/policy-evaluator" groups="core" />
   <project path="policy-fetcher" name="kubewarden/policy-fetcher" groups="core" />
   <project path="policy-hub" name="kubewarden/policy-hub" groups="hub" />
