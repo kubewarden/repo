@@ -7,6 +7,7 @@
            sync-j="4" />
 
   <project path="docs" name="kubewarden/docs" groups="docs" />
+  <project path="gatekeeper-policy-template" name="kubewarden/gatekeeper-policy-template" groups="templates" />
   <project path="gjson" name="kubewarden/gjson" revision="master" groups="deps" />
   <project path="go-policy-template" name="kubewarden/go-policy-template" groups="templates" />
   <project path="helm-charts" name="kubewarden/helm-charts" groups="kubernetes" />
@@ -15,8 +16,10 @@
   <project path="kubewarden.io" name="kubewarden/kubewarden.io" groups="docs" />
   <project path="kwctl" name="kubewarden/kwctl" groups="core" />
   <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
+  <project path="opa-policy-template" name="kubewarden/opa-policy-template" groups="templates" />
   <project path="pod-privileged-policy" name="kubewarden/pod-privileged-policy" groups="policies" />
   <project path="pod-runtime-class-policy" name="kubewarden/pod-runtime-class-policy" groups="policies" />
+  <project path="policy-disallow-service-loadbalancer" name="kubewarden/policy-disallow-service-loadbalancer" groups="policies" />
   <project path="policy-disallow-service-nodeport" name="kubewarden/policy-disallow-service-nodeport" groups="policies" />
   <project path="policy-evaluator" name="kubewarden/policy-evaluator" groups="core" />
   <project path="policy-fetcher" name="kubewarden/policy-fetcher" groups="core" />
