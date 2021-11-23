@@ -19,6 +19,7 @@
   <project path="krustlet" name="kubewarden/krustlet" groups="deps" />
   <project path="kwctl" name="kubewarden/kwctl" groups="core" />
   <project path="load-testing" name="kubewarden/kwctl" groups="tooling" />
+  <project path="mdBook" name="kubewarden/mdBook" revision="master" groups="deps" />
   <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
   <project path="opa-policy-template" name="kubewarden/opa-policy-template" groups="templates" />
   <project path="pod-privileged-policy" name="kubewarden/pod-privileged-policy" groups="policies" />
