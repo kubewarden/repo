@@ -16,7 +16,7 @@
   <project path="ingress-policy" name="kubewarden/ingress-policy" groups="policies" />
   <project path="kubewarden-controller" name="kubewarden/kubewarden-controller" groups="kubernetes" />
   <project path="kubewarden.io" name="kubewarden/kubewarden.io" groups="docs" />
-  <project path="krustlet" name="kubewarden/krustlet" revision="master" groups="deps" />
+  <project path="krustlet" name="kubewarden/krustlet" groups="deps" />
   <project path="kwctl" name="kubewarden/kwctl" groups="core" />
   <project path="load-testing" name="kubewarden/kwctl" groups="tooling" />
   <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
