@@ -18,7 +18,7 @@
   <project path="kubewarden-controller" name="kubewarden/kubewarden-controller" groups="kubernetes" />
   <project path="kubewarden.io" name="kubewarden/kubewarden.io" groups="docs" />
   <project path="kwctl" name="kubewarden/kwctl" groups="core" />
-  <project path="load-testing" name="kubewarden/kwctl" groups="tooling" />
+  <project path="load-testing" name="kubewarden/load-testing" groups="tooling" />
   <project path="mdBook" name="kubewarden/mdBook" revision="master" groups="deps" />
   <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
   <project path="opa-policy-template" name="kubewarden/opa-policy-template" groups="templates" />
