@@ -38,6 +38,7 @@
            groups="templates" />
   <project path="github-actions"
            name="kubewarden/github-actions"
+           revision="refs/heads/v1"
            groups="infra" />
   <project path="gjson" name="kubewarden/gjson" revision="master"
            groups="deps" />
