@@ -6,51 +6,126 @@
            remote="upstream"
            sync-j="4" />
 
-  <project path="automation" name="kubewarden/automation" groups="infra" />
+  <project path="github" name="kubewarden/.github" groups="infra" />
+  <project path="allow-privilege-escalation-psp-policy"
+           name="kubewarden/allow-privilege-escalation-psp-policy"
+           groups="policies" />
+  <project path="allowed-fsgroups-psp-policy"
+           name="kubewarden/allowed-fsgroups-psp-policy"
+           groups="policies" />
+  <project path="allowed-proc-mount-types-psp-policy"
+           name="kubewarden/allowed-proc-mount-types-psp-policy"
+           groups="policies" />
+  <project path="apparmor-psp-policy"
+           name="kubewarden/apparmor-psp-policy" groups="policies" />
+  <project path="automation" name="kubewarden/automation"
+           groups="infra" />
+  <project path="capabilities-psp-policy"
+           name="kubewarden/capabilities-psp-policy" groups="policies"
+           />
+  <project path="disallow-service-loadbalancer-policy"
+           name="kubewarden/disallow-service-loadbalancer-policy"
+           groups="policies" />
+  <project path="disallow-service-nodeport-policy"
+           name="kubewarden/disallow-service-nodeport-policy"
+           groups="policies" />
   <project path="docs" name="kubewarden/docs" groups="docs" />
-  <project path="gatekeeper-policy-template" name="kubewarden/gatekeeper-policy-template" groups="templates" />
-  <project path="gjson" name="kubewarden/gjson" revision="master" groups="deps" />
-  <project path="gtmpl-rust" name="kubewarden/gtmpl-rust" revision="master" groups="deps" />
-  <project path="go-policy-template" name="kubewarden/go-policy-template" groups="templates" />
-  <project path="helm-charts" name="kubewarden/helm-charts" groups="kubernetes" />
-  <project path="ingress-policy" name="kubewarden/ingress-policy" groups="policies" />
+  <project path="flexvolume-drivers-psp-policy"
+           name="kubewarden/flexvolume-drivers-psp-policy" groups="policies"
+           />
+  <project path="gatekeeper-policy-template"
+           name="kubewarden/gatekeeper-policy-template"
+           groups="templates" />
+  <project path="github-actions"
+           name="kubewarden/github-actions"
+           groups="infra" />
+  <project path="gjson" name="kubewarden/gjson" revision="master"
+           groups="deps" />
+  <project path="go-policy-template"
+           name="kubewarden/go-policy-template" groups="templates" />
+  <project path="gtmpl-rust" name="kubewarden/gtmpl-rust"
+           revision="master" groups="deps" />
+  <project path="helm-charts" name="kubewarden/helm-charts"
+           groups="kubernetes" />
+  <project path="host-namespaces-psp-policy"
+           name="kubewarden/host-namespaces-psp-policy" groups="policies" />
+  <project path="hostpaths-psp-policy"
+           name="kubewarden/hostpaths-psp-policy" groups="policies" />
+  <project path="ingress-policy" name="kubewarden/ingress-policy"
+           groups="policies" />
   <project path="krustlet" name="kubewarden/krustlet" groups="deps" />
-  <project path="kubewarden-controller" name="kubewarden/kubewarden-controller" groups="kubernetes" />
-  <project path="kubewarden.io" name="kubewarden/kubewarden.io" groups="docs" />
+  <project path="kubewarden-controller"
+           name="kubewarden/kubewarden-controller" groups="kubernetes"
+           />
+  <project path="kubewarden-end-to-end-tests"
+           name="kubewarden/kubewarden-end-to-end-tests" groups="tooling"
+           />
+  <project path="kubewarden.io" name="kubewarden/kubewarden.io"
+           groups="docs" />
   <project path="kwctl" name="kubewarden/kwctl" groups="core" />
-  <project path="load-testing" name="kubewarden/load-testing" groups="tooling" />
-  <project path="mdBook" name="kubewarden/mdBook" revision="master" groups="deps" />
-  <project path="notify-policy-hub" name="kubewarden/notify-policy-hub" groups="infra" />
-  <project path="opa-policy-template" name="kubewarden/opa-policy-template" groups="templates" />
-  <project path="pod-privileged-policy" name="kubewarden/pod-privileged-policy" groups="policies" />
-  <project path="pod-runtime-class-policy" name="kubewarden/pod-runtime-class-policy" groups="policies" />
-  <project path="policy-disallow-service-loadbalancer" name="kubewarden/policy-disallow-service-loadbalancer" groups="policies" />
-  <project path="policy-disallow-service-nodeport" name="kubewarden/policy-disallow-service-nodeport" groups="policies" />
-  <project path="policy-evaluator" name="kubewarden/policy-evaluator" groups="core" />
-  <project path="policy-fetcher" name="kubewarden/policy-fetcher" groups="core" />
-  <project path="policy-hub" name="kubewarden/policy-hub" groups="hub" />
-  <project path="policy-rust-template" name="kubewarden/policy-rust-template" groups="templates" />
-  <project path="policy-sdk-go" name="kubewarden/policy-sdk-go" groups="sdks" />
-  <project path="policy-sdk-rust" name="kubewarden/policy-sdk-rust" groups="sdks" />
-  <project path="policy-sdk-swift" name="kubewarden/policy-sdk-swift" groups="sdks" />
-  <project path="policy-server" name="kubewarden/policy-server" groups="core" />
-  <project path="policy-user-group" name="kubewarden/policy-user-group" groups="policies" />
-  <project path="psp-allow-privilege-escalation" name="kubewarden/psp-allow-privilege-escalation" groups="policies" />
-  <project path="psp-allowed-fsgroups" name="kubewarden/psp-allowed-fsgroups" groups="policies" />
-  <project path="psp-allowed-proc-mount-types" name="kubewarden/psp-allowed-proc-mount-types" groups="policies" />
-  <project path="psp-apparmor" name="kubewarden/psp-apparmor" groups="policies" />
-  <project path="psp-capabilities" name="kubewarden/psp-capabilities" groups="policies" />
-  <project path="psp-flexvolume-drivers" name="kubewarden/psp-flexvolume-drivers" groups="policies" />
-  <project path="psp-host-namespaces" name="kubewarden/psp-host-namespaces" groups="policies" />
-  <project path="psp-hostpaths-policy" name="kubewarden/psp-hostpaths-policy" groups="policies" />
-  <project path="psp-selinux" name="kubewarden/psp-selinux" groups="policies" />
-  <project path="psp-sysctl-policy" name="kubewarden/psp-sysctl-policy" groups="policies" />
-  <project path="psp-volumes-policy" name="kubewarden/psp-volumes-policy" groups="policies" />
+  <project path="load-testing" name="kubewarden/load-testing"
+           groups="tooling" />
+  <project path="mdBook" name="kubewarden/mdBook" revision="master"
+           groups="deps" />
+  <project path="notify-policy-hub"
+           name="kubewarden/notify-policy-hub" groups="infra" />
+  <project path="oci-distribution"
+           name="kubewarden/oci-distribution" groups="deps" />
+  <project path="opa-policy-template"
+           name="kubewarden/opa-policy-template" groups="templates" />
+  <project path="pod-privileged-policy"
+           name="kubewarden/pod-privileged-policy" groups="policies"
+           />
+  <project path="pod-runtime-class-policy"
+           name="kubewarden/pod-runtime-class-policy"
+           groups="policies" />
+  <project path="policy-evaluator" name="kubewarden/policy-evaluator"
+           groups="core" />
+  <project path="policy-fetcher" name="kubewarden/policy-fetcher"
+           groups="core" />
+  <project path="policy-hub" name="kubewarden/policy-hub" groups="hub"
+           />
+  <project path="policy-sdk-go" name="kubewarden/policy-sdk-go"
+           groups="sdks" />
+  <project path="policy-sdk-rust" name="kubewarden/policy-sdk-rust"
+           groups="sdks" />
+  <project path="policy-sdk-swift" name="kubewarden/policy-sdk-swift"
+           groups="sdks" />
+  <project path="policy-server" name="kubewarden/policy-server"
+           groups="core" />
+  <project path="readonly-root-filesystem-psp-policy"
+           name="kubewarden/readonly-root-filesystem-psp-policy"
+           groups="policies" />
   <project path="repo" name="kubewarden/repo" groups="repo" />
-  <project path="safe-annotations-policy" name="kubewarden/safe-annotations-policy" groups="policies" />
-  <project path="safe-labels-policy" name="kubewarden/safe-labels-policy" groups="policies" />
-  <project path="swift-policy-template" name="kubewarden/swift-policy-template" groups="templates" />
-  <project path="swift-wasm-runner" name="kubewarden/swift-wasm-runner" groups="tooling" />
-  <project path="trusted-repos-policy" name="kubewarden/trusted-repos-policy" groups="policies" />
+  <project path="rust-policy-template"
+           name="kubewarden/rust-policy-template" groups="templates"
+           />
+  <project path="safe-annotations-policy"
+           name="kubewarden/safe-annotations-policy" groups="policies"
+           />
+  <project path="safe-labels-policy"
+           name="kubewarden/safe-labels-policy" groups="policies" />
+  <project path="seccomp-psp-policy"
+           name="kubewarden/seccomp-psp-policy" groups="policies" />
+  <project path="selinux-psp-policy"
+           name="kubewarden/selinux-psp-policy" groups="policies" />
+  <project path="setup-kubwarden-cluster-action"
+           name="kubewarden/setup-kubewarden-cluster-action" groups="infra" />
+  <project path="sigstore-rs"
+           name="kubewarden/sigstore-rs" groups="deps" />
+  <project path="swift-policy-template"
+           name="kubewarden/swift-policy-template" groups="templates"
+           />
+  <project path="swift-wasm-runner"
+           name="kubewarden/swift-wasm-runner" groups="tooling" />
+  <project path="sysctl-psp-policy"
+           name="kubewarden/sysctl-psp-policy" groups="policies" />
+  <project path="trusted-repos-policy"
+           name="kubewarden/trusted-repos-policy" groups="policies" />
   <project path="UI" name="kubewarden/UI" groups="ui" />
+  <project path="user-group-psp-policy"
+           name="kubewarden/user-group-psp-policy" groups="policies"
+           />
+  <project path="volumes-psp-policy"
+           name="kubewarden/volumes-psp-policy" groups="policies" />
 </manifest>
